@@ -3,7 +3,7 @@ FROM kauden/nginx-fpm
 MAINTAINER Thierry Corbin <thierry.corbin@kauden.fr>
 
 ENV BASEDIR /site
-ENV PHPMYADMIN_VERSION 4.4.4
+ENV PHPMYADMIN_VERSION 4.4.5
 
 WORKDIR ${BASEDIR}
 
